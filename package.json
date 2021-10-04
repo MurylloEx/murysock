@@ -1,9 +1,13 @@
 {
   "name": "murysock",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Murysock is a framework to create your own client websocket applications that interact with servers using the Event-Message architecture with few decorators.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MurylloEx/murysock.git"
+  },
   "scripts": {
     "prepublish": "tsc",
     "prepare": "tsc",
@@ -22,12 +26,13 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^12.20.27",
+    "@types/websocket": "^1.0.4",
     "@types/ws": "^8.2.0",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3"
   },
   "dependencies": {
-    "@muryllo/easy-decorators": "0.0.4",
+    "@muryllo/easy-decorators": "0.0.7",
     "ws": "^8.2.3"
   }
 }
