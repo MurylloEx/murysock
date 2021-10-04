@@ -60,6 +60,7 @@ For a more detailed overview see the example of integration below using a Gatewa
 import { 
   reply, 
   websockConnect, 
+  WebSocket,
   WebSockClient, 
   WebSockConnected, 
   WebSockGateway, 
